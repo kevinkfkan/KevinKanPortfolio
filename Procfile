@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn KevinKanPortfolio\kkanportfolio.wsgi --log-file -
+web: gunicorn --pythonpath kkanportfolio kkanportfolio.wsgi --log-file -
