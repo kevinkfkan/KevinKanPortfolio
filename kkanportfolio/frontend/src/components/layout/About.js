@@ -39,7 +39,7 @@ export class About extends Component {
             </P>
             <P>
               I created this website to introduce myself, as well as showcase some of the projects I've done - both in engineering and software. If you have time, take a look at some of my projects below.
-              Feel free to contact me! My information is given at the bottom of the page, or just click <a href="#">Contact</a> in the navigation bar! 
+              Feel free to contact me! My information is given at the bottom of the page. 
             </P>
             <P style={{fontWeight: "bold"}}>
               This website is still under construction and is constantly being updated. 

@@ -24,44 +24,48 @@ export const ProjectWrapper = styled.a`
   flex-direction: row;
   justify-content: flex-start;
   height: 35vh;
-  width: 90%;
+  width: 70vw;
   border: 2px solid black;
   margin: 5vh auto;
   color: black;
-  &:focus, &:hover, &:visited, &:link, &:active {
+  &:focus, &:hover, &:link, &:visited, &:active {
     text-decoration: none;
-    color: #aaa;
     cursor: pointer;
   }
 `;
 
 export const ProjectImage = styled.img`
-/*   border: 2px solid blue; */
-  width: 25%;
+  width: 20%;
   margin: 2.5vh;
 `;
 
 export const ProjectText = styled.div`
     display: flex;
     flex-direction: column;
-    width: 75%;
-    height: 32.5vh;
+    width: 90%;
+    height: 90%;
     margin: 2.5vh 0 0 0;
-/*     border: 2px solid grey; */
+    font-size: 16px;
+    overflow: auto;
 `;
 
 export const ProjectTitle = styled.h1`
     justify-content: left;
     font-weight: bold;
-/*     border: 2px solid red; */
+    font-size: 1.5vw;
     width: 95%;
-    height: 15%;
     margin: 0 2.5vh 1.25vh 2.5vh;
+    min-width: 15%;
 `;
 
 export const ProjectInfo = styled.p`
     width : 95%;
     height: 100%;
-/*     border: 2px solid red; */
-    margin: 1.25vh 2.5vh 0 2.5vh;
+    margin: 0 0 0 2.5vh;
+`;
+
+export const ProjectBullets = styled.ul`
+    min-height: 0;
+    margin: 0;
+    font-size: 14px;
 `;

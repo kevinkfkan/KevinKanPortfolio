@@ -38,7 +38,7 @@ class App extends Component {
     `;
     return (
       <WebContainer>
-        <Header />
+ 
         <Intro />
         <MainSection>
           <MainBackground>

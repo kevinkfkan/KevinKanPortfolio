@@ -19,6 +19,8 @@ import CSS from "../../assets/images/logos/css.png";
 import LaTeX from "../../assets/images/logos/latex.png";
 import XFLR5 from "../../assets/images/logos/xflr5.png";
 import Excel from "../../assets/images/logos/excel.png";
+import Jupyter from "../../assets/images/logos/jupyter.png";
+import Pandas from "../../assets/images/logos/pandaslibrary.png";
 
 export class Skills extends Component {
   render() {
@@ -60,6 +62,20 @@ export class Skills extends Component {
               <IconName>MATLAB</IconName>
             </StyledCol>
             <StyledCol>
+              <IconImg src={Excel} />
+              <IconName>Microsoft Excel</IconName>
+            </StyledCol>
+            <StyledCol>
+              <IconImg src={LaTeX} />
+              <IconName>LaTeX</IconName>
+            </StyledCol>
+            <StyledCol>
+              <IconImg src={XFLR5} />
+              <IconName>XFLR5</IconName>
+            </StyledCol>
+          </StyledRow>
+          <StyledRow>
+            <StyledCol>
               <IconImg src={Python} />
               <IconName>Python</IconName>
             </StyledCol>
@@ -71,28 +87,28 @@ export class Skills extends Component {
               <IconImg src={GitHub} />
               <IconName>GitHub</IconName>
             </StyledCol>
+            <StyledCol>
+              <IconImg src={Pandas} />
+              <IconName>pandas</IconName>
+            </StyledCol>
+            <StyledCol>
+              <IconImg src={Jupyter} />
+              <IconName>Jupyter Lab</IconName>
+            </StyledCol>
+            <StyledCol>
+              <IconImg src={CSS} />
+              <IconName>CSS</IconName>
+            </StyledCol>
           </StyledRow>
           <StyledRow>
             <StyledCol>
               <IconImg src={HTML} />
               <IconName>HTML</IconName>
             </StyledCol>
-            <StyledCol>
-              <IconImg src={CSS} />
-              <IconName>CSS</IconName>
-            </StyledCol>
-            <StyledCol>
-              <IconImg src={LaTeX} />
-              <IconName>LaTeX</IconName>
-            </StyledCol>
-            <StyledCol>
-              <IconImg src={Excel} />
-              <IconName>Microsoft Excel</IconName>
-            </StyledCol>
-            <StyledCol>
-              <IconImg src={XFLR5} />
-              <IconName>XFLR5</IconName>
-            </StyledCol>
+            <StyledCol style={{ visibility: "hidden" }}></StyledCol>
+            <StyledCol style={{ visibility: "hidden" }}></StyledCol>
+            <StyledCol style={{ visibility: "hidden" }}></StyledCol>
+            <StyledCol style={{ visibility: "hidden" }}></StyledCol>
             <StyledCol style={{ visibility: "hidden" }}></StyledCol>
           </StyledRow>
         </StyledContainer>

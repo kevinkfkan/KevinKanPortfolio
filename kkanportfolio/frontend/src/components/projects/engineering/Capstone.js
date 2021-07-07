@@ -4,8 +4,14 @@ import styled from "styled-components";
 
 import { BsChevronDoubleRight } from "react-icons/bs"
 
-import { ProjectWrapper, ProjectImage, ProjectTitle, ProjectInfo,
-ProjectText } from "../../styled/Styled";
+import {
+    ProjectWrapper,
+    ProjectImage,
+    ProjectTitle,
+    ProjectInfo,
+    ProjectText,
+    ProjectBullets
+  } from "../../styled/Styled";
 
 import { ReadMore } from "../../styled/Buttons";
 
@@ -30,7 +36,7 @@ export class Capstone extends Component {
                     <ProjectTitle>Aircraft Capstone Project / Competition [2019]</ProjectTitle>
                     <ProjectInfo>
                         <P> Designed an electric single-engine aircraft comparable to the Cessna-172 Skyhawk </P>
-                        <Ul>
+                        <ProjectBullets>
                             <Li>
                                 Winner of 2019 Competition judged by senior staff of Bombardier Inc. 
                             </Li>
@@ -49,7 +55,7 @@ export class Capstone extends Component {
                             <Li>
                                 Extensive use of ANSYS Fluent for computational fluid dynamics (CFD) analysis
                             </Li>
-                        </Ul>
+                        </ProjectBullets>
                     </ProjectInfo>
                     <ReadMore>Read More <BsChevronDoubleRight /></ReadMore>
                 </ProjectText>

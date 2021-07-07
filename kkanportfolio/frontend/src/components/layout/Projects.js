@@ -11,6 +11,7 @@ import Capstone from "../projects/engineering/Capstone";
 import CompositeLaminate from "../projects/engineering/CompositeLaminate";
 
 import Portfolio from "../projects/software/Portfolio";
+import Spotify from "../projects/software/Spotify";
 
 export class Projects extends Component {
   render() {
@@ -29,8 +30,7 @@ export class Projects extends Component {
       <Wrapper>
         <Header>PROJECTS</Header>
         <P>
-          In this section, I give some insight to some of the projects I've
-          done. I've categorized the projects below based on if they were
+          These are some of the projects that I have completed. The projects below are categorized based on if they are
           engineering or software related. Click on the tabs below to switch
           between the two. Links are applicable to see the projects in more
           detail when applicable.
@@ -42,6 +42,7 @@ export class Projects extends Component {
               <CompositeLaminate />
             </StyledTab>
             <StyledTab eventKey="software" title="Software">
+              <Spotify />
               <Portfolio />
             </StyledTab>
           </StyledTabs>

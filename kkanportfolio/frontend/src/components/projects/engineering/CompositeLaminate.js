@@ -10,6 +10,7 @@ import {
   ProjectTitle,
   ProjectInfo,
   ProjectText,
+  ProjectBullets
 } from "../../styled/Styled";
 
 import { ReadMore } from "../../styled/Buttons";
@@ -31,7 +32,7 @@ export class CompositeLaminate extends Component {
                     <ProjectTitle>Composite Laminate Design [2019]</ProjectTitle>
                     <ProjectInfo>
                         <P> Designed and manufactured a multi-ply carbon fiber composite </P>
-                        <Ul>
+                        <ProjectBullets>
                             <Li>
                                 Using MATLAB, designed multi-ply laminate to withstand stresses from longitudinal and transverse directions  
                             </Li>
@@ -44,7 +45,7 @@ export class CompositeLaminate extends Component {
                             <Li>
                                 Experimental stress tests applied using strain guage to compare with theoretical values
                             </Li>
-                        </Ul>
+                        </ProjectBullets>
                     </ProjectInfo>
                     <ReadMore>Read More <BsChevronDoubleRight /></ReadMore>
                 </ProjectText>
